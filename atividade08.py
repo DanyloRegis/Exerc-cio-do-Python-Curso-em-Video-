@@ -1,0 +1,7 @@
+texto = str(input("Digite um texto: ")).strip()
+numero_de_r = texto.count("r") + texto.count("R")
+texto = texto.replace("r", "R")
+rei = texto.count("rei") + texto.count("Rei") + texto.count("REI")
+print(f"Quantidade de letras 'r' ou 'R': {numero_de_r}")
+print(texto)
+print(f"Quantidade de vezes que aparece 'rei' ou 'Rei' ou 'REI': {rei}")
