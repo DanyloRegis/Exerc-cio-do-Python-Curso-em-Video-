@@ -15,9 +15,9 @@ def fatorial(x, show=False):
         fat *= i  # Calcula o fatorial
     if show:
         print(fat)  # Mostra o resultado se show=True
-    # Retorna o valor do fatorial
+    return fat  # Retorna o valor do fatorial
 
 # Testes
-print(fatorial(10, show=True))   # Mostra o processo e o resultado
+print(fatorial(1, show=True))   # Mostra o processo e o resultado
 print(fatorial(5, show=False))  # Retorna apenas o resultado (120)
 print(fatorial(-3))             # Retorna mensagem de erro
