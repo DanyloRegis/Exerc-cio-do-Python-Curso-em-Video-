@@ -1,0 +1,14 @@
+{
+    "12345-6": {
+        "conta": "Conta Poupan\u00e7a",
+        "titular": "Jo\u00e3o Silva",
+        "limite": 1000.0,
+        "saldo": 0.0
+    },
+    "65432-1": {
+        "conta": "Conta Corrente",
+        "titular": "Maria Oliveira",
+        "limite": 500.0,
+        "saldo": 0.0
+    }
+}
